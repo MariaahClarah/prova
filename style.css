@@ -1,0 +1,62 @@
+body
+{
+    max-width: 1500px;
+    margin: auto;
+
+}
+.listaNav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.listaNav li
+{
+    padding: 1.5rem;
+    list-style-type: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+.banner
+{
+    background-image: url(imagens/mc-kevin.jpg);
+    height: 65vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+
+.cards
+{
+    display: flex;
+    font-size: 30px;
+    
+}
+
+.card1
+{
+    padding: 1rem;
+}
+
+div
+{
+    background-color: rgb(164, 245, 245);
+
+}
+
+footer
+{
+    background-color: antiquewhite;
+    text-align: center;
+}
